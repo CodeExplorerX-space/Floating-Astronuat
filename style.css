@@ -1,0 +1,31 @@
+body  {
+    background: url(./5438849.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+img  {
+    position: absolute;
+    bottom: 10px;
+    left: 290px;
+    height: 300px;
+    width: 300px;
+    animation: abcd 2s linear alternate infinite;
+}
+
+@keyframes abcd {
+         
+          from  {
+            bottom: 10px;
+          }
+
+
+        to  {
+            bottom: 200px;
+        }
+
+
+}
